@@ -1,0 +1,71 @@
+body {
+
+background-color: bisque;
+
+}
+.main_heading {
+
+border-radius: 20px;
+font-size: 25px;
+background-color: aqua;
+width: 300px;
+height: 90px;
+
+}
+
+.Emoji_Use {
+
+font-size: 30px;
+
+}
+
+.Bar {
+
+width: 1px;
+height: 10px;
+
+}
+
+#camera {
+
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px; 
+
+}
+
+.Webcam_view {
+
+margin-left: 20px;
+
+}
+
+.Webcam_view button {
+
+margin-left: 110px;
+margin-bottom: 20px;
+
+}
+
+
+#Captured {
+
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px; 
+
+}
+
+.Captured_Image {
+
+margin-left: 350px;
+margin-bottom: 20px;
+margin-top: -30px;
+
+}
+
+.Captured_Image button {
+
+margin-left: 150px;
+
+}

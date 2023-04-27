@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Hand Gesture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script src="Main.js"></script>
+  </head>
+
+  <body>
+
+<center>
+    
+        <h1 class="main_heading"><b>Hand Gestures Identification
+            <br>
+        <span>&#129304;</span>
+        <span>&#128077;</span>
+        <span>&#128076;</span>
+        <span>&#9996;</span>
+    </b></h1>
+<br> 
+<br>
+    <h4><b>Take a Photo of a Hand Gesture to Know What it Means</b></h4>
+    <h5><b>The Emojis you can Identify are :-</b></h5>
+
+    <span class="Emoji_use">&#128076;</span>
+    <span class="Emoji_use" class="bar">&#9646;</span>
+    <span class="Emoji_use">&#9996;</span>
+    <span class="Emoji_use" class="bar">&#9646;</span>
+    <span class="Emoji_use">&#128079;</span>
+    <br>
+    <br>
+
+</center>
+
+<br>
+<br>
+    <span><div class="col-md-4 col-sm-12 col-xs-12 Webcam_view">
+        <label>Webcame View: </label>
+        <div id="camera"></div>
+        <br>
+        <br>
+        <button onclick="TakePhoto()" class="btn btn-warning">Take Photo</button>
+      </div>
+    </span>
+       
+      <center>
+    <span><div class="col-md-4 col-sm-12 col-xs-12">
+        <b><label>Prediction:-</label></b>
+        <p class="Gesture_1"></p>
+        <p class="Gesture_2"></p>
+      </div>
+      </center>
+    </span>
+
+    <span><div class="col-md-4 col-sm-12 col-xs-12 Captured_Image">
+        <label>Snapshot: </label>
+        <div id="Captured"></div>
+        <br>
+        <br>
+        <button onclick="Identify()" class="btn btn-warning">Identify</button>
+      </div>
+    </span>
+    
+    </body>
